@@ -1,7 +1,19 @@
 package Taksopark;
 import java.util.*;
 public class Taksi {
-    String str = "str";
-    String string = "string";
+    protected String marka, model, bodyType;
+    protected double copasity;
 
+    public String getMarka() {
+        return marka;
+    }
+    public String getModel(){
+        return model;
+    }
+    public String getBodyType(){
+        return bodyType;
+    }
+    public double getCopasity(){
+        return copasity;
+    }
 }
