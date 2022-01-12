@@ -1,4 +1,6 @@
-package Taksopark;
+package Taksopark.X;
+
+import Taksopark.X.TaksiX;
 
 public class XcarPolo extends TaksiX {
     double priceKm;

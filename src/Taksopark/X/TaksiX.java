@@ -1,6 +1,8 @@
-package Taksopark;
+package Taksopark.X;
 
-public class TaksiX extends Taksi{
+import Taksopark.Taksi;
+
+public class TaksiX extends Taksi {
     double yearOfRelease;
     public TaksiX (double yearOfRelease) {
         this.yearOfRelease = yearOfRelease;

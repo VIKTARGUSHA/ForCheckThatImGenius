@@ -1,6 +1,8 @@
-package Taksopark;
+package Taksopark.X;
 
-public class XcarLogan extends TaksiX{
+import Taksopark.X.TaksiX;
+
+public class XcarLogan extends TaksiX {
     double priceKm;
     public XcarLogan(){
         this.priceKm = 0.8;
