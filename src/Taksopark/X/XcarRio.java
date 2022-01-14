@@ -4,13 +4,15 @@ import Taksopark.X.TaksiX;
 
 public class XcarRio extends TaksiX {
         double priceKm = 0.6;
-    public XcarRio() {
+        double price = 15488;
+    public XcarRio(int yearOfRelease) {
         super.marka = "Kia";
         model ="Rio";
         bodyType = "Hatchback";
         copasity = 1.4;
     }
     public String toString(){
-        return ("---" + priceKm + "km" + " " + marka + " " + model + " " + bodyType + " " + copasity + "l" );
+        return ("---" + " " + nameOfClass + " " + priceKm + "km" + " " + yearOfRelease + " "
+                + marka + " " + model + " " + bodyType + " " + copasity + "l" + " " + price );
     }
 }

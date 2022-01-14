@@ -1,9 +1,10 @@
 package Taksopark.TaksiSelectPlus;
 
-public class TaksiSelectPlusKodiak extends TaksiSelectPlus{
+public class SkodaKodiak extends TaksiSelectPlus{
     double priceKm = 1.5;
     int yearOfRelease = 2017;
-    TaksiSelectPlusKodiak(int yearOfRelease){
+    double price = 47000;
+    public SkodaKodiak(int yearOfRelease){
         model = "Kodiak";
         marka = "Skoda";
         bodyType = "Outpath";
@@ -11,6 +12,7 @@ public class TaksiSelectPlusKodiak extends TaksiSelectPlus{
         yearOfRelease = yearOfRelease;
     }
     public String toString(){
-        return ("---" + model + " " + marka + " " + bodyType + " " + copasity + " " + yearOfRelease);
+        return ("---" + " " + nameOfClass + " " + model + " " + marka + " " + bodyType + " " + copasity + " "
+                + yearOfRelease + " " + price);
     }
 }

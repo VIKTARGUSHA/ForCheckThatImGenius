@@ -2,7 +2,8 @@ package Taksopark.TaksiSelectPlus;
 
 public class VolvoX80 extends TaksiSelectPlus{
     double priceKm = 2.5;
-    VolvoX80(){
+    double price = 99000;
+    public VolvoX80(){
         model = "X80";
         marka = "Volvo";
         bodyType ="OutPath";
@@ -10,6 +11,7 @@ public class VolvoX80 extends TaksiSelectPlus{
         yearOfRelease = 2019;
     }
     public String toString(){
-        return ("---" + model + " " + marka + " " + bodyType + " " + copasity + " " + yearOfRelease);
+        return ("---" + " " + nameOfClass + " " + model + " " + marka + " " + bodyType + " " + copasity + " "
+                + yearOfRelease + " " + price);
     }
 }

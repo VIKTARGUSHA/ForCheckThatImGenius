@@ -2,7 +2,7 @@ package Taksopark;
 import java.util.*;
 public class Taksi {
     protected String marka, model, bodyType;
-    protected double copasity;
+    protected double copasity,price;
 
     public String getMarka() {
         return marka;
@@ -16,4 +16,5 @@ public class Taksi {
     public double getCopasity(){
         return copasity;
     }
+    public double getPrice(){ return price;}
 }

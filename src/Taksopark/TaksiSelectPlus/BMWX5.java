@@ -2,7 +2,8 @@ package Taksopark.TaksiSelectPlus;
 
 public class BMWX5 extends TaksiSelectPlus{
     double priceKm = 2.0;
-    BMWX5 (int yearOfRelease){
+    double price = 66006;
+    public BMWX5 (int yearOfRelease){
         model = "X5";
         marka = "BMW";
         bodyType = "Jeep";
@@ -10,6 +11,7 @@ public class BMWX5 extends TaksiSelectPlus{
         this.yearOfRelease = yearOfRelease;
     }
     public String toString(){
-        return ("---" + model + " " + marka + " " + bodyType + " " + copasity + " " + yearOfRelease);
+        return ("---" + " " + nameOfClass + " "+ model + " " + marka + " " + bodyType + " " + copasity + " "
+                + yearOfRelease + " " + price);
     }
 }
